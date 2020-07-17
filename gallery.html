@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Галерея</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar py-3" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Transfer</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li><a href="index.html">Головна</a></li>
+          
+               <li class="active"><a href="gallery.html">Галерея</a></li>
+                <li class="has-children">
+                  <a href="services.html">Сервіси</a>
+                  <ul class="dropdown">
+                    <li><a href="obshivka.html">Обшивка салона</a></li>
+                    <li><a href="shumo.html">Шумовіброізоляція</a></li>
+                   
+                    <li><a href="vikna.html">Монтаж вікон автомобіля</a></li>
+                    <li><a href="divan.html">Установка автомобільних крісел і диванів</a></li>
+                    <li><a href="dodatkovo.html">Додаткові роботи</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="contact.html">Контакти</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(Crafter-1-Bus.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Галерея</h1>
+            <p class="breadcrumb-custom"><a href="index.html">Головна</a> <span class="mx-2">&gt;</span> <span>Галерея</span></p>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    
+  
+    <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+         <style>
+           
+              .demo-gallery > ul {
+                margin-bottom: 0;
+            }
+            .demo-gallery > ul > li {
+                float: left;
+                margin-bottom: 15px;
+                margin-right: 20px;
+                width: 200px;
+                
+            }
+            .demo-gallery > ul > li a {
+                border: 3px solid #FFF;
+                border-radius: 3px;
+                display: block;
+                overflow: hidden;
+                position: relative;
+                float: left;
+
+            }
+            .demo-gallery > ul > li a > img {
+                -webkit-transition: -webkit-transform 0.15s ease 0s;
+                -moz-transition: -moz-transform 0.15s ease 0s;
+                -o-transition: -o-transform 0.15s ease 0s;
+                transition: transform 0.15s ease 0s;
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+                height: 100%;
+                width: 100%;
+            }
+            .demo-gallery > ul > li a:hover > img {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+                opacity: 1;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.1);
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                -webkit-transition: background-color 0.15s ease 0s;
+                -o-transition: background-color 0.15s ease 0s;
+                transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster > img {
+                right: 50%;
+                margin-right:  -10px;
+                margin-top: -10px;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                -webkit-transition: opacity 0.3s ease 0s;
+                -o-transition: opacity 0.3s ease 0s;
+                transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .justified-gallery > a > img {
+                -webkit-transition: -webkit-transform 0.15s ease 0s;
+                -moz-transition: -moz-transform 0.15s ease 0s;
+                -o-transition: -o-transform 0.15s ease 0s;
+                transition: transform 0.15s ease 0s;
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+                height: 100%;
+                width: 100%;
+            }
+            .demo-gallery .justified-gallery > a:hover > img {
+                -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+                opacity: 1;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.1);
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                -webkit-transition: background-color 0.15s ease 0s;
+                -o-transition: background-color 0.15s ease 0s;
+                transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+                left: 0%;
+                margin-left: -10px;
+                margin-top: -10px;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                -webkit-transition: opacity 0.3s ease 0s;
+                -o-transition: opacity 0.3s ease 0s;
+                transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .video .demo-gallery-poster img {
+                height: 48px;
+                margin-left: -24px;
+                margin-top: -24px;
+                opacity: 0.8;
+                width: 48px;
+
+            }
+            .demo-gallery.dark > ul > li a {
+                border: 3px solid #04070a;
+            }
+            .home .demo-gallery {
+                padding-bottom: 80px;
+                margin: 20px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body class="home">
+
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="list-unstyled row">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\1.jpg , images\img\1.jpg 480, images\img\1.jpg" data-src="images\img\1.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\1.jpg" alt="">
+                    </a>
+                </li>
+                
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\2.jpg 375, images\img\2.jpg 480, images\img\2.jpg 800" data-src="images\img\2.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\2.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\3.jpg 375, images\img\3.jpg 480, images\img\3.jpg 800" data-src="images\img\3.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\3.jpg" alt="">
+                    </a>
+                </li>
+               
+                
+               
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\9.jpg  375, images\img\9.jpg 480, images\img\9.jpg 800" data-src="images\img\9.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\9.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\10.jpg 375, images\img\10.jpg 480, images\img\10.jpg 800" data-src="images\img\10.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\10.jpg" alt="">
+                    </a>
+                </li>
+               
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\16.jpg 375, images\img\16.jpg 480, images\img\16.jpg 800" data-src="images\img\16.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\16.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\17.jpg 375, images\img\17.jpg 480, images\img\17.jpg 800" data-src="images\img\17.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\17.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\18.jpg 375, images\img\18.jpg 480, images\img\18.jpg 800" data-src="images\img\18.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\18.jpg" alt="">
+                    </a>
+                </li>
+               
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\19.jpg 375, images\img\19.jpg 480, images\img\19.jpg 800" data-src="images\img\19.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\19.jpg" alt="">
+                    </a>
+                </li>
+                
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\21.jpg 375, images\img\21.jpg 480, images\img\21.jpg 800" data-src="images\img\21.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\21.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\22.jpg 375, images\img\22.jpg  480, images\img\22.jpg  800" data-src="images\img\22.jpg " data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\22.jpg " alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\23.jpg  375, images\img\23.jpg 480, images\img\23.jpg 800" data-src="images\img\23.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\23.jpg" alt="">
+                    </a>
+                </li>
+                
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\25.jpg  375, images\img\25.jpg 480, images\img\25.jpg 800" data-src="images\img\25.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\25.jpg" alt="">
+                    </a>
+                </li>
+                
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\27.jpg  375, images\img\27.jpg 480, images\img\27.jpg 800" data-src="images\img\27.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\27.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\28.jpg  375, images\img\28.jpg 480, images\img\28.jpg 800" data-src="images\img\28.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\28.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\29.jpg  375, images\img\29.jpg 480, images\img\29.jpg 800" data-src="images\img\29.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\29.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\30.jpg  375, images\img\30.jpg 480, images\img\30.jpg 800" data-src="images\img\30.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\30.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\31.jpg  375, images\img\31.jpg 480, images\img\31.jpg 800" data-src="images\img\31.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\31.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\32.jpg  375, images\img\32.jpg 480, images\img\32.jpg 800" data-src="images\img\32.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\32.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\34.jpg  375, images\img\34.jpg 480, images\img\34.jpg 800" data-src="images\img\34.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\34.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\35.jpg  375, images\img\35.jpg 480, images\img\35.jpg 800" data-src="images\img\35.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\35.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\36.jpg  375, images\img\36.jpg 480, images\img\36.jpg 800" data-src="images\img\36.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\36.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\37.jpg  375, images\img\37.jpg 480, images\img\37.jpg 800" data-src="images\img\37.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\37.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\38.jpg  375, images\img\38.jpg 480, images\img\38.jpg 800" data-src="images\img\38.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\38.jpg" alt="">
+                    </a>
+                </li>
+                
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\41.jpg  375, images\img\41.jpg 480, images\img\41.jpg 800" data-src="images\img\41.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\41.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\42.jpg  375, images\img\42.jpg 480, images\img\42.jpg 800" data-src="images\img\42.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\42.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\43.jpg  375, images\img\43.jpg 480, images\img\43.jpg 800" data-src="images\img\43.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\43.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\44.jpg  375, images\img\44.jpg 480, images\img\44.jpg 800" data-src="images\img\44.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\44.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\45.jpg  375, images\img\45.jpg 480, images\img\45.jpg 800" data-src="images\img\45.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\45.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\46.jpg  375, images\img\46.jpg 480, images\img\46.jpg 800" data-src="images\img\46.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\46.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\47.jpg  375, images\img\47.jpg 480, images\img\47.jpg 800" data-src="images\img\47.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\47.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\48.jpg  375, images\img\48.jpg 480, images\img\48.jpg 800" data-src="images\img\48.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\48.jpg" alt="">
+                    </a>
+                </li>
+                
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\50.jpg  375, images\img\50.jpg 480, images\img\50.jpg 800" data-src="images\img\50.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\50.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\51.jpg  375, images\img\51.jpg 480, images\img\51.jpg 800" data-src="images\img\51.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\51.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\52.jpg  375, images\img\52.jpg 480, images\img\52.jpg 800" data-src="images\img\52.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\52.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\53.jpg  375, images\img\53.jpg 480, images\img\53.jpg 800" data-src="images\img\53.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\53.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\54.jpg  375, images\img\54.jpg 480, images\img\54.jpg 800" data-src="images\img\54.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\54.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\55.jpg  375, images\img\55.jpg 480, images\img\55.jpg 800" data-src="images\img\55.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\55.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\56.jpg  375, images\img\56.jpg 480, images\img\56.jpg 800" data-src="images\img\56.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\56.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\57.jpg  375, images\img\57.jpg 480, images\img\57.jpg 800" data-src="images\img\57.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\57.jpg" alt="">
+                    </a>
+                </li>
+               
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\61.jpg  375, images\img\61.jpg 480, images\img\61.jpg 800" data-src="images\img\61.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\61.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\62.jpg  375, images\img\62.jpg 480, images\img\62.jpg 800" data-src="images\img\62.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\62.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\63.jpg  375, images\img\63.jpg 480, images\img\63.jpg 800" data-src="images\img\63.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\63.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\64.jpg  375, images\img\64.jpg 480, images\img\64.jpg 800" data-src="images\img\64.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\64.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\65.jpg  375, images\img\65.jpg 480, images\img\65.jpg 800" data-src="images\img\65.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\65.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\66.jpg  375, images\img\66.jpg 480, images\img\66.jpg 800" data-src="images\img\66.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\66.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\67.jpg  375, images\img\67.jpg 480, images\img\67.jpg 800" data-src="images\img\67.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\67.jpg" alt="">
+                    </a>
+                </li>
+                 
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\69.jpg  375, images\img\69.jpg 480, images\img\69.jpg 800" data-src="images\img\69.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\69.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\70.jpg  375, images\img\70.jpg 480, images\img\70.jpg 800" data-src="images\img\70.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\70.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\71.jpg  375, images\img\71.jpg 480, images\img\71.jpg 800" data-src="images\img\71.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\71.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\72.jpg  375, images\img\72.jpg 480, images\img\72.jpg 800" data-src="images\img\72.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\72.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\73.jpg  375, images\img\73.jpg 480, images\img\73.jpg 800" data-src="images\img\73.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\73.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\74.jpg  375, images\img\74.jpg 480, images\img\74.jpg 800" data-src="images\img\74.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\74.jpg" alt="">
+                    </a>
+                </li>
+                 
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\76.jpg  375, images\img\76.jpg 480, images\img\76.jpg 800" data-src="images\img\76.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\76.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\77.jpg  375, images\img\77.jpg 480, images\img\77.jpg 800" data-src="images\img\77.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\77.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\78.jpg  375, images\img\78.jpg 480, images\img\78.jpg 800" data-src="images\img\78.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\78.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\79.jpg  375, images\img\79.jpg 480, images\img\79.jpg 800" data-src="images\img\79.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\79.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\80.jpg  375, images\img\80.jpg 480, images\img\80.jpg 800" data-src="images\img\80.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\80.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\81.jpg  375, images\img\81.jpg 480, images\img\81.jpg 800" data-src="images\img\81.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\81.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\82.jpg  375, images\img\82.jpg 480, images\img\82.jpg 800" data-src="images\img\82.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\82.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\83.jpg  375, images\img\83.jpg 480, images\img\83.jpg 800" data-src="images\img\83.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\83.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\84.jpg  375, images\img\84.jpg 480, images\img\84.jpg 800" data-src="images\img\84.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\84.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\85.jpg  375, images\img\85.jpg 480, images\img\85.jpg 800" data-src="images\img\85.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\85.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\86.jpg  375, images\img\86.jpg 480, images\img\86.jpg 800" data-src="images\img\86.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\86.jpg" alt="">
+                    </a>
+                </li>
+                 <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\87.jpg  375, images\img\87.jpg 480, images\img\87.jpg 800" data-src="images\img\87.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\87.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\88.jpg  375, images\img\88.jpg 480, images\img\88.jpg 800" data-src="images\img\88.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\88.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\89.jpg  375, images\img\89.jpg 480, images\img\89.jpg 800" data-src="images\img\89.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\89.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\90.jpg  375, images\img\90.jpg 480, images\img\90.jpg 800" data-src="images\img\90.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\90.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\91.jpg  375, images\img\91.jpg 480, images\img\91.jpg 800" data-src="images\img\91.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\91.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\92.jpg  375, images\img\92.jpg 480, images\img\92.jpg 800" data-src="images\img\92.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\92.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\93.jpg  375, images\img\93.jpg 480, images\img\93.jpg 800" data-src="images\img\93.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\93.jpg" alt="">
+                    </a>
+                </li>
+               
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\96.jpg  375, images\img\96.jpg 480, images\img\96.jpg 800" data-src="images\img\96.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\96.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\97.jpg  375, images\img\97.jpg 480, images\img\97.jpg 800" data-src="images\img\97.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\97.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\98.jpg  375, images\img\98.jpg 480, images\img\98.jpg 800" data-src="images\img\98.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\98.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\99.jpg  375, images\img\99.jpg 480, images\img\99.jpg 800" data-src="images\img\99.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\99.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\100.jpg  375, images\img\100.jpg 480, images\img\100.jpg 800" data-src="images\img\100.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\100.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\101.jpg  375, images\img\101.jpg 480, images\img\101.jpg 800" data-src="images\img\101.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\101.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\102.jpg  375, images\img\102.jpg 480, images\img\102.jpg 800" data-src="images\img\102.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\102.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\103.jpg  375, images\img\103.jpg 480, images\img\103.jpg 800" data-src="images\img\103.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\103.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\104.jpg  375, images\img\104.jpg 480, images\img\104.jpg 800" data-src="images\img\104.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\104.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\105.jpg  375, images\img\105.jpg 480, images\img\105.jpg 800" data-src="images\img\105.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\105.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\106.jpg  375, images\img\106.jpg 480, images\img\106.jpg 800" data-src="images\img\106.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\106.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\107.jpg  375, images\img\107.jpg 480, images\img\107.jpg 800" data-src="images\img\107.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\107.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\108.jpg  375, images\img\108.jpg 480, images\img\108.jpg 800" data-src="images\img\108.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\108.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\109.jpg  375, images\img\109.jpg 480, images\img\109.jpg 800" data-src="images\img\109.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\109.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\110.jpg  375, images\img\110.jpg 480, images\img\110.jpg 800" data-src="images\img\110.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\110.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\111.jpg  375, images\img\111.jpg 480, images\img\111.jpg 800" data-src="images\img\111.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\111.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\112.jpg  375, images\img\112.jpg 480, images\img\112.jpg 800" data-src="images\img\112.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\112.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\113.jpg  375, images\img\113.jpg 480, images\img\113.jpg 800" data-src="images\img\113.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\113.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\114.jpg  375, images\img\114.jpg 480, images\img\114.jpg 800" data-src="images\img\114.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\114.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\115.jpg  375, images\img\115.jpg 480, images\img\115.jpg 800" data-src="images\img\115.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\115.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\116.jpg  375, images\img\116.jpg 480, images\img\116.jpg 800" data-src="images\img\116.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\116.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\117.jpg  375, images\img\117.jpg 480, images\img\117.jpg 800" data-src="images\img\117.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\117.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\118.jpg  375, images\img\118.jpg 480, images\img\118.jpg 800" data-src="images\img\118.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\118.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\119.jpg  375, images\img\119.jpg 480, images\img\119.jpg 800" data-src="images\img\119.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\119.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\120.jpg  375, images\img\120.jpg 480, images\img\120.jpg 800" data-src="images\img\120.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\120.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\121.jpg  375, images\img\121.jpg 480, images\img\121.jpg 800" data-src="images\img\121.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\121.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\122.jpg  375, images\img\122.jpg 480, images\img\122.jpg 800" data-src="images\img\122.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\122.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\123.jpg  375, images\img\123.jpg 480, images\img\123.jpg 800" data-src="images\img\123.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\123.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\124.jpg  375, images\img\124.jpg 480, images\img\124.jpg 800" data-src="images\img\124.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\124.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\125.jpg  375, images\img\125.jpg 480, images\img\125.jpg 800" data-src="images\img\125.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\125.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\127.jpg  375, images\img\127.jpg 480, images\img\127.jpg 800" data-src="images\img\127.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\127.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\128.jpg  375, images\img\128.jpg 480, images\img\128.jpg 800" data-src="images\img\128.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\128.jpg" alt="">
+                    </a>
+                </li><li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\129.jpg  375, images\img\129.jpg 480, images\img\129.jpg 800" data-src="images\img\129.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\129.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\130.jpg  375, images\img\130.jpg 480, images\img\130.jpg 800" data-src="images\img\130.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\130.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\131.jpg  375, images\img\131.jpg 480, images\img\131.jpg 800" data-src="images\img\131.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\131.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\132.jpg  375, images\img\132.jpg 480, images\img\132.jpg 800" data-src="images\img\132.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\132.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\133.jpg  375, images\img\133.jpg 480, images\img\133.jpg 800" data-src="images\img\133.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\133.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\134.jpg  375, images\img\134.jpg 480, images\img\134.jpg 800" data-src="images\img\134.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\134.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\135.jpg  375, images\img\135.jpg 480, images\img\135.jpg 800" data-src="images\img\135.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\135.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\136.jpg  375, images\img\136.jpg 480, images\img\136.jpg 800" data-src="images\img\136.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\136.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\137.jpg  375, images\img\137.jpg 480, images\img\137.jpg 800" data-src="images\img\137.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\137.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\138.jpg  375, images\img\138.jpg 480, images\img\138.jpg 800" data-src="images\img\138.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\138.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\139.jpg  375, images\img\139.jpg 480, images\img\139.jpg 800" data-src="images\img\139.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\139.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\140.jpg  375, images\img\140.jpg 480, images\img\140.jpg 800" data-src="images\img\140.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\140.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\141.jpg  375, images\img\141.jpg 480, images\img\141.jpg 800" data-src="images\img\141.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\141.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\142.jpg  375, images\img\142.jpg 480, images\img\142.jpg 800" data-src="images\img\142.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\142.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\143.jpg  375, images\img\143.jpg 480, images\img\143.jpg 800" data-src="images\img\143.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\143.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\144.jpg  375, images\img\144.jpg 480, images\img\144.jpg 800" data-src="images\img\144.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\144.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\145.jpg  375, images\img\145.jpg 480, images\img\145.jpg 800" data-src="images\img\145.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\145.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\146.jpg  375, images\img\146.jpg 480, images\img\146.jpg 800" data-src="images\img\146.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\146.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\147.jpg  375, images\img\147.jpg 480, images\img\147.jpg 800" data-src="images\img\147.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\147.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\148.jpg  375, images\img\148.jpg 480, images\img\148.jpg 800" data-src="images\img\148.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\148.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\149.jpg  375, images\img\149.jpg 480, images\img\149.jpg 800" data-src="images\img\149.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\149.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\150.jpg  375, images\img\150.jpg 480, images\img\150.jpg 800" data-src="images\img\150.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\150.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\151.jpg  375, images\img\151.jpg 480, images\img\151.jpg 800" data-src="images\img\151.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\151.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\152.jpg  375, images\img\152.jpg 480, images\img\152.jpg 800" data-src="images\img\152.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\152.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\153.jpg  375, images\img\153.jpg 480, images\img\153.jpg 800" data-src="images\img\153.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\153.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\154.jpg  375, images\img\154.jpg 480, images\img\154.jpg 800" data-src="images\img\154.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\154.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\155.jpg  375, images\img\155.jpg 480, images\img\155.jpg 800" data-src="images\img\155.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\155.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\156.jpg  375, images\img\156.jpg 480, images\img\156.jpg 800" data-src="images\img\156.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\156.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\157.jpg  375, images\img\157.jpg 480, images\img\157.jpg 800" data-src="images\img\157.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\157.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\158.jpg  375, images\img\158.jpg 480, images\img\158.jpg 800" data-src="images\img\158.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\158.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\159.jpg  375, images\img\159.jpg 480, images\img\159.jpg 800" data-src="images\img\159.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\159.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\160.jpg  375, images\img\160.jpg 480, images\img\160.jpg 800" data-src="images\img\160.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\160.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\161.jpg  375, images\img\161.jpg 480, images\img\161.jpg 800" data-src="images\img\161.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\161.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\162.jpg  375, images\img\162.jpg 480, images\img\162.jpg 800" data-src="images\img\162.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\162.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\163.jpg  375, images\img\163.jpg 480, images\img\163.jpg 800" data-src="images\img\163.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\163.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\164.jpg  375, images\img\164.jpg 480, images\img\164.jpg 800" data-src="images\img\164.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\164.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\165.jpg  375, images\img\165.jpg 480, images\img\165.jpg 800" data-src="images\img\165.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\165.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\166.jpg  375, images\img\166.jpg 480, images\img\166.jpg 800" data-src="images\img\166.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\166.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\167.jpg  375, images\img\167.jpg 480, images\img\167.jpg 800" data-src="images\img\167.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\167.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\168.jpg  375, images\img\168.jpg 480, images\img\168.jpg 800" data-src="images\img\168.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\168.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\169.jpg  375, images\img\169.jpg 480, images\img\169.jpg 800" data-src="images\img\169.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\169.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\170.jpg  375, images\img\170.jpg 480, images\img\170.jpg 800" data-src="images\img\170.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\170.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\171.jpg  375, images\img\171.jpg 480, images\img\171.jpg 800" data-src="images\img\171.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\171.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\172.jpg  375, images\img\172.jpg 480, images\img\172.jpg 800" data-src="images\img\172.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\172.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\173.jpg  375, images\img\173.jpg 480, images\img\173.jpg 800" data-src="images\img\173.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\173.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\174.jpg  375, images\img\174.jpg 480, images\img\174.jpg 800" data-src="images\img\174.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\174.jpg" alt="">
+                    </a>
+                </li>
+
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\175.jpg  375, images\img\175.jpg 480, images\img\175.jpg 800" data-src="images\img\175.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\175.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\176.jpg  375, images\img\176.jpg 480, images\img\176.jpg 800" data-src="images\img\176.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\176.jpg" alt="">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="images\img\174.jpg  375, images\img\174.jpg 480, images\img\174.jpg 800" data-src="images\img\174.jpg" data-sub-html="" data-pinterest-text="Pin it1" data-tweet-text="share on twitter 1">
+                    <a href="">
+                        <img class="img-responsive" src="images\img\174.jpg" alt="">
+                    </a>
+                </li>
+
+
+
+
+                 
+            </ul>
+        </div>
+         <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+        <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+        <script>
+            lightGallery(document.getElementById('lightgallery'));
+        </script>
+   
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Швидкі посилання</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">Про нас</a></li>
+                  <li><a href="services.html">Сервіси</a></li>
+                 <li><a href="gallery.html">Галерея</a></li>
+                  <li><a href="contact.html">Контакти </a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Продукція</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">Про нас</a></li>
+                  <li><a href="services.html">Сервіси</a></li>
+                  <li><a href="gallery.html">Галерея</a></li>
+                  <li><a href="contact.html">Контакти </a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Функції</h2>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">Про нас</a></li>
+                  <li><a href="services.html">Сервіси</a></li>
+                  <li><a href="gallery.html">Галерея</a></li>
+                  <li><a href="contact.html">Контакти</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Слідкуйте за нами</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Підписатися на розсилку</h2>
+            <form action="#" method="post">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i class="" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank" ></a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
